@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Remixicons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image" href="imagenes/codecam.png">
+    <title>Codecam Solutions</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Nosotros</a>
+                    </li>
+
+                    <li>
+                        <a href="#portafolio" class="nav__link">Portafolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#services" class="nav__link">Servicios</a>
+                    </li>
+
+                    <li>
+                        <a href="#resume" class="nav__link">Resumen</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav__close">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="idnav__toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/logo (3).png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__name">Codecam Solutions_</h1>
+                    <p class="home__work">Paginas web, Camaras de seguridad, Mantenimiento de computadores, Manejo de
+                        redes sociales, Producción audiovisual y
+                        mucho mas...</p><br>
+                    <dl class="home__list">
+                        <dt>Integrantes:</dt>
+                        <dd style="padding-left: 8em">Mateo Lambis, Brayan Vargas, Wildrings Franco, Emmanuel Velásquez
+                        </dd>
+                        <dt>Celular:</dt>
+                        <dd>+57 310 467 8471, +57 310 747 2608, +57 312 617 7800,<br> +57 302 452 3313</dd>
+                        <dt>Gmail:</dt>
+                        <dd>codecamsolutions@gmail.com</dd>
+                        <dt>Ciudad:</dt>
+                        <dd>El santuario, Antioquia</dd>
+                    </dl>
+                    <div class="home__socials">
+                        <a href="https://www.instagram.com/codecamsolutions" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61554434945022" target="_blank"
+                            class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- nosotros -->
+        <section class="hello section container">
+            <h2 class="section__title">Hola_</h2>
+
+            <p class="hello__details text-lg">Somos una empresa de desarrollo web junior capaz de construir
+                una presencia web desde cero, desde el concepto, el diseño y la programación hasta
+                UX y SEO.
+                expertos en escribir código bien diseñado, comprobable y eficiente utilizando las mejores
+                prácticas actuales en desarrollo web. Aprendizaje rápido, gran trabajador y jugador de
+                equipo que domina una variedad de lenguajes de programación y herramientas web multimedia.
+            </p>
+            <a href="assets/img/mateo-Cv.pdf" target="_blank" class="button button--flex text-sm">
+                <i class="ri-download-line"></i>DOWNLOAD CV
+            </a>
+        </section>
+
+        <!-- proyectos -->
+        <section class="work section container" id="portafolio">
+            <h2 class="section__title">Portafolio_</h2>
+
+            <div class="project__categories">
+                <button class="category__btn text-xs active-work" data-filter="Todo">Todo</button>
+                <button class="category__btn text-xs" data-filter=".Inventario">Sistemas de Inventarios</button>
+                <button class="category__btn text-xs" data-filter=".Empresariales">Sitios webs Empresariales</button>
+                <button class="category__btn text-xs" data-filter=".Personales">Sitios webs Personales</button>
+            </div>
+
+            <div class="projects__container grid">
+                <div class="project__item grid mix Empresariales">
+                    <img src="assets/img/agencia.jpg" alt="" class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">Agencia de viajes Blue Sea.</h3>
+                        <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                            optio deleniti, eum laborum odio vitae doloribus aspernatur hic. Ea, beatae? Iure sed qui
+                            delectus! Blanditiis repellat dolores consequuntur numquam eos.</p>
+                        <h4 class="project__stack text-xs">Lenguajes Usados:</h4>
+                        <ul class="tags text-sm">
+                            <li>Html5</li>
+                            <li>Css3</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <a href="https://bluesea2023.000webhostapp.com" class="project__link text-sm"
+                            target="_blank">Sitio Web</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="projects__container grid">
+                <div class="project__item grid mix Inventario">
+                    <img src="assets/img/restaurante.jpg" alt="" class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">Restaurante Delicias del Mar.</h3>
+                        <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                            optio deleniti, eum laborum odio vitae doloribus aspernatur hic. Ea, beatae? Iure sed qui
+                            delectus! Blanditiis repellat dolores consequuntur numquam eos.</p>
+                        <h4 class="project__stack text-xs">Lenguajes Usados:</h4>
+                        <ul class="tags text-sm">
+                            <li>Html5</li>
+                            <li>Css3</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <a href="https://restaurantcol.000webhostapp.com" class="project__link text-sm"
+                            target="_blank">Sitio Web</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="projects__container grid">
+                <div class="project__item grid mix Personales">
+                    <img src="assets/img/portafoliobra.jpg" alt="" class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">Portafolio Personal de Brayan Gómez.</h3>
+                        <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                            optio deleniti, eum laborum odio vitae doloribus aspernatur hic. Ea, beatae? Iure sed qui
+                            delectus! Blanditiis repellat dolores consequuntur numquam eos.</p>
+                        <h4 class="project__stack text-xs">Lenguajes Usados:</h4>
+                        <ul class="tags text-sm">
+                            <li>Html5</li>
+                            <li>Css3</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <a href="https://portfoliobra.netlify.app" class="project__link text-sm" target="_blank">Sitio
+                            Web</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="projects__container grid">
+                <div class="project__item grid mix Personales">
+                    <img src="assets/img/portafoliomat.jpg" alt="" class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">Portafolio personal de Mateo Lambis.</h3>
+                        <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                            optio deleniti, eum laborum odio vitae doloribus aspernatur hic. Ea, beatae? Iure sed qui
+                            delectus! Blanditiis repellat dolores consequuntur numquam eos.</p>
+                        <h4 class="project__stack text-xs">Lenguajes Usados:</h4>
+                        <ul class="tags text-sm">
+                            <li>Html5</li>
+                            <li>Css3</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <a href="https://miportafolioma.netlify.app/" class="project__link text-sm"
+                            target="_blank">Sitio Web</a>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="projects__container grid">
+                <div class="project__item grid mix Personales">
+                    <img src="assets/img/portafoliowil.jpg" alt="" class="project__img">
+
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">Portafolio personal de Wildrings Franco.</h3>
+                        <p class="project__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                            optio deleniti, eum laborum odio vitae doloribus aspernatur hic. Ea, beatae? Iure sed qui
+                            delectus! Blanditiis repellat dolores consequuntur numquam eos.</p>
+                        <h4 class="project__stack text-xs">Lenguajes Usados:</h4>
+                        <ul class="tags text-sm">
+                            <li>Html5</li>
+                            <li>Css3</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <a href="https://wildrings-franco.netlify.app" class="project__link text-sm"
+                            target="_blank">Sitio Web</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios -->
+        <section class="services section container" id="services">
+            <h2 class="section__title">Servicios_</h2>
+
+            <div class="services__container grid">
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/web-design.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Diseñadores web</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/laptop.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Desarrolladores web</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/paint-palette.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Diseño Creativo</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/smartphone-call.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Diseño Responsivo</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/verified.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Identidad de Marca</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/operator.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Soporte 24/7</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/soporte.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Mantenimiento Preventivo y Correctivo de computadores</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/camaras.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Instalacion de camaras de seguridad</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+
+                <div class="services__item">
+                    <div class="icon__box">
+                        <img src="assets/img/control.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+
+                    <h3 class="services__title text-lg">Configuracion de controles de puertas electricas(BFT)</h3>
+                    <p class="services__detail">Soy un experto diseñador y desarrollador web.
+                        contrario a la creencia popular</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- resume -->
+        <section class="section container" id="resume">
+            <h2 class="section_title">Resumen_</h2>
+            <div class="resume__container grid">
+                <div class="resume__data">
+                    <h3 class="resume__title text-sm">Educación</h3>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Tecnico de sistemas informaticos</h3>
+                        <p class="resume__date text-sm">2021 - 2023</p>
+                        <p class="resume__description text-lg">Como Técnicos de Sistemas Informáticos con
+                            formación
+                            académica en el Politécnico ASDI, poseemos habilidades
+                            especializadas en la
+                            gestión y mantenimiento de sistemas informáticos. Nuestra formación
+                            en ASDI nos
+                            ha proporcionado una base sólida en el diseño, implementación y
+                            resolución
+                            de problemas en entornos informáticos. Con un enfoque proactivo,
+                            estoy preparado
+                            para abordar desafíos tecnológicos, garantizando un rendimiento
+                            óptimo de los
+                            sistemas y contribuyendo al éxito continuo de cualquier proyecto
+                            informático.</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">CISCO NETWORKING ESSENTIALS 1</h3>
+                        <p class="resume__date text-sm">2023 - 2023</p>
+                        <p class="resume__description text-lg">Como profesionales certificados en Cisco
+                            Networking Essentials 1,
+                            hemos completado un estudio exhaustivo en la reconocida plataforma
+                            de formación de Cisco.
+                            Nuestra experiencia abarca los fundamentos esenciales de redes, desde
+                            la comprensión de conceptos
+                            básicos hasta la configuración y administración de dispositivos
+                            de red. Con esta certificación,
+                            estamos capacitados para diseñar, implementar y mantener redes
+                            seguras y eficientes utilizando las
+                            mejores prácticas de Cisco. Estamos comprometidos a aplicar este
+                            conocimiento para optimizar la conectividad
+                            y la seguridad en entornos de red.</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Responsive Web Design</h3>
+                        <p class="resume__date text-sm">2022 - 2022</p>
+                        <p class="resume__description text-lg">
+                            Como graduados del curso de Responsive Web Design en FreeCodeCamp, hemos desarrollado
+                            habilidades fundamentales para crear experiencias web adaptativas y atractivas. Durante
+                            nuestra
+                            formación en FreeCodeCamp, nos enfocamos en adquirir competencias esenciales en HTML, CSS y
+                            JavaScript, centrándome en la creación de interfaces que se ajustan de manera dinámica a
+                            diferentes dispositivos y tamaños de pantalla.</p>
+                    </div>
+                </div>
+
+                <div class="resume__data">
+                    <h3 class="resume__title text-sm">Educación</h3>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Curso de ingles A1</h3>
+                        <p class="resume__date text-sm">2023 - 2023</p>
+                        <p class="resume__description text-lg">Como graduados del curso de Inglés A1 en el
+                            Politécnico ASDI, hemos adquirido habilidades fundamentales para
+                            comunicarme efectivamente en inglés en situaciones cotidianas.
+                            El programa de estudios en ASDI se centró en el desarrollo de
+                            habilidades de escucha, lectura, escritura y conversación en
+                            nivel principiante. Con esta formación, estoamos preparados para
+                            participar en diálogos simples, entender instrucciones básicas y
+                            construir una base sólida para avanzar en mi competencia en el
+                            idioma inglés.</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Curso de ingles A2</h3>
+                        <p class="resume__date text-sm">2023 - 2023</p>
+                        <p class="resume__description text-lg">Con orgullo, informo que hemos completado
+                            exitosamente el curso de inglés nivel A2 en el Politécnico ASDI.
+                            Este curso ha proporcionado una sólida base en gramática,
+                            vocabulario y habilidades comunicativas en inglés. Estamos
+                            preparados para participar en conversaciones cotidianas,
+                            comprender textos simples y expresar ideas de manera clara. Nuestra
+                            formación en el Politécnico ASDI garantiza una adquisición
+                            efectiva de habilidades en inglés, lo que nos permite comunicarnos
+                            con confianza en un entorno global y multicultural.</p>
+                    </div>
+
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">JavaScript algorithms</h3>
+                        <p class="resume__date text-sm">2022 - 2022</p>
+                        <p class="resume__description text-lg">
+                            Como desarrolladores especializados en JavaScript Algorithms, hemos perfeccionado la
+                            capacidad
+                            para abordar desafíos algorítmicos de manera eficiente y elegante. Nuestra experiencia
+                            incluye la
+                            implementación de algoritmos de búsqueda, ordenación y estructuras de datos avanzadas. Hemos
+                            demostrado habilidades sólidas al optimizar el rendimiento y la escalabilidad en proyectos
+                            del mundo real. Nuestro enfoque se centra en aportar soluciones lógicas y eficaces,
+                            contribuyendo
+                            así al éxito de equipos de desarrollo en entornos dinámicos. Explora Nuestro portafolio para
+                            ver
+                            cómo podemos potenciar tus proyectos con mi experiencia en JavaScript Algorithms</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- equipo -->
+        <section class="testimonials section">
+            <div class="testimonial__bg">
+                <div class="testimonial__icon">
+                    <i class="ri-double-quotes-r"></i>
+                </div>
+                <div class="swiper testimonial__container container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">Mateo Lambis</h3>
+                            <p class="author__project">Desarrollador Web.</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">Como individuo proactivo y altamente eficiente,
+                                tengo una habilidad innata
+                                para abordar desafíos con rapidez y eficacia. Mi compromiso con la mejora
+                                continua se refleja en mi disposición constante para adquirir nuevos
+                                conocimientos y contribuir con mis habilidades existentes. Encaro cada
+                                tarea con una actitud positiva, paciencia y una ética de trabajo disciplinada.
+                                Estoy dedicado a elevar los estándares profesionales y la identidad de mi campo,
+                                buscando constantemente oportunidades para el crecimiento institucional y
+                                personal.</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">Brayan Gómez</h3>
+                            <p class="author__project">Desarrollador Web.</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">Programador con una sólida formación en
+                                desarrollo web y habilidades destacadas en el diseño eficiente y desarrollo de
+                                soluciones excepcionales. Mi capacidad para analizar y crear, junto con mi enfoque en
+                                las últimas tecnologías, garantiza la entrega de resultados sobresalientes.</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">Wildrings Franco</h3>
+                            <p class="author__project">Desarrollador Web.</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">Soy una persona profesional, polifacético con
+                                sólidos conocimientos en sistemas operativos, redes y seguridad informática, así como
+                                habilidades en desarrollo de software y gestión de proyectos.</p>
+                        </div>
+
+                        <div class="swiper-slide testimonial__item">
+                            <h3 class="author__name text-lg">Emmanuel Velásquez</h3>
+                            <p class="author__project">Desarrollador Web.</p>
+                            <div class="ruler"></div>
+                            <p class="testimonial__description text-lg">Up or well must less rent read walk so be.
+                                Easy
+                                sold at do hour sing spot. Any meant has cease too the decay. Since party burst am
+                                it
+                                match. By or blushes between besides offices noisier as. Sending do brought winding
+                                compass in. Easy sold at do hour sing spot less rent read walk so be. Any meant has
+                                cease too the decay.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <img src="assets/img/arrow-next.svg" alt="">
+                    </div>
+                    <div class="swiper-button-prev">
+                        <img src="assets/img/arrow-prev.svg" alt="">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- habilidades (skills) -->
+        <section class="section container">
+            <h2 class="section__title">Habilidades_</h2>
+
+            <div class="skills__container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">FRONTEND</h3>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">HTML</p>
+                                <span class="skills__number text-sm">95%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 95%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">CSS</p>
+                                <span class="skills__number text-sm">66%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 66%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">JavaScript</p>
+                                <span class="skills__number text-sm">50%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 50%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">BACKEND</h3>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">PHP</p>
+                                <span class="skills__number text-sm">90%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 90%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">JavaScript</p>
+                                <span class="skills__number text-sm">35%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 35%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">MYSQL</p>
+                                <span class="skills__number text-sm">75%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 75%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <p class="skills__name text-sm">PHP MYSQL</p>
+                                <span class="skills__number text-sm">85%</span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 85%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contacto -->
+        <section class="contact section" id="contact">
+            <div class="contact__content container">
+                <h2 class="section__title">Ponte en contacto_</h2>
+
+                <div class="contact__container grid">
+                    <div class="contact__info">
+                        <dl class="contact__list">
+                            <dt>Celular:</dt>
+                            <dd>+57 310 467 8471</dd>
+                            <dt>Gmail:</dt>
+                            <dd>codecamsolutions@gmail.com</dd>
+                            <dt>Ciudad:</dt>
+                            <dd>El santuario, Antioquia</dd>
+                        </dl>
+
+                        <ul class="contact__socials">
+                            <li>
+                                <a href="https://www.instagram.com/codecamsolutions"
+                                target="_blank" class="contact__social-link">Instagram</a>
+                            </li>
+
+                            <li>
+                                <a href="" target="_blank" class="contact__social-link">Linkedin</a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=61554434945022"
+                                target="_blank"  class="contact__social-link">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact__form">
+                        <p class="contact__form-title">O solo escribeme un correo_</p>
+
+                        <form action="" id="contact-form">
+                            <div class="contact__input-div">
+                                <input type="text" name="name" placeholder="Tu nombre" class="contact__input" id="contact-name">
+                            </div>
+
+                            <div class="contact__input-div">
+                                <input type="email" name="email" placeholder="Tu Gmail" class="contact__input" id="contact-email">
+                            </div>
+
+                            <div class="contact__input-div">
+                                <textarea name="message" placeholder="Escribe un mensaje aqui" class="contact__input textarea"
+                                    id="message" cols="30" rows="10"></textarea>
+                            </div><br>
+
+                            <p class="contact__message text-sm" id="contact-message">Mensaje</p>
+                            <button type="submit" class="button contact__button">Enviar</button>
+                        </form>
+
+                        <p class="footer__copy">
+                            &copy; Mateo Lambis. Derechos Reservados
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <!--swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- mixitup -->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!-- email js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
